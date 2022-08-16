@@ -22,3 +22,5 @@ Once you know what port you are running on you can test the RestAPI with the fol
 - **Get B rated restaurants**: `curl http://localhost:8080/api/get-restaurants-by-grade/B`
 - **Get default error page**: `curl http://localhost:8080/api/get-restaurants-by-grade/ldfg`
 
+### Compiling using an IDE for the first time
+If you open the project in an IDE, before you can run it, jooq will need to generate the database classes used by the main application.  To do this you will need to create amaven build profile and run the following command: `clean install`.  Once the files have been generated, jooq will only run again if it checks changes to the database schema.
