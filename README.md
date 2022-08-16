@@ -1,8 +1,8 @@
 # restaurants
 ### Restaurants assessment
 
-####Running the RestAPI
-The easiest wau to run the RestAPI on your local machine, is to download the jar file and run it locally.  The jar file can be found here: [jar file](https://github.com/noboard/restaurants/blob/main/target/restaurants-0.0.1-SNAPSHOT.jar) Look for the download button on the right sidew of the page.
+#### Running the RestAPI
+The easiest way to run the RestAPI on your local machine, is to download the jar file and run it locally.  The jar file can be found here: [jar file](https://github.com/noboard/restaurants/blob/main/target/restaurants-0.0.1-SNAPSHOT.jar) Look for the download button on the right sidew of the page.
 
 Once the jar file has downloaded, copy it to a directory you wish to keep the file in.  If you haven't already, open a comand line/prompt and navigate to the directory the jar file is stored in.  Once there start the application with the following command: `java -jar restaurants-0.0.1-SNAPSHOT.jar` Once it's running you should see something similar to the screenshot below.
 
