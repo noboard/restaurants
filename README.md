@@ -12,7 +12,7 @@ Once it has completed startup, look at the top lines, just below the "Spring" as
 
 `←[30m2022-08-16 22:12:22,252←[0;39m ←[34mINFO ←[0;39m [←[34mmain←[0;39m] ←[33morg.springframework.boot.web.embedded.tomcat.TomcatWebServer←[0;39m: Tomcat initialized with port(s): 8080 (http)`
 
-Once you know what port you are running on, you can test the RestAPI with the following cURL commands.  
+Once you know what port you are running on you can test the RestAPI with the following cURL commands.  
 **NOTE**  The commands below assume the service is being run on port 8080.  If your service is running on a different port, simple replace 8080 with the actual port number.  So if the service was running on port 8088, instead of 'curl http://localhost:8080/api/get-all-restaurants', you would put `curl http://localhost:8088/api/get-all-restaurants`
 
 
